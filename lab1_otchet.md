@@ -60,9 +60,9 @@ public class lab1prg {
         for (double[] ri: r) {
             for (double rij: ri) {
                 if (Double.isNaN(rij)) {
-                    System.out.printf("%1$12s"," NaN");
+                    System.out.printf("%1$11s"," NaN");
                 } else {
-                    System.out.printf(" "+"%.5e", rij);
+                    System.out.printf("  %1$9.5f", rij);
 
                 }
             }
