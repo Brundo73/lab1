@@ -62,7 +62,7 @@ public class lab1prg {
                 if (Double.isNaN(rij)) {
                     System.out.printf("%1$11s"," NaN");
                 } else {
-                    System.out.printf("  %1$9.5f", rij);
+                    System.out.printf("%1$11.5f", rij);
 
                 }
             }
